@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+		<link rel="stylesheet" href="./style/style.css" />
+		<title>Help Gather Resources</title>
+	</head>
+	<body>
+		<div class="container">
+			<h1 class="display-4">Please help gather developer resources!</h1>
+
+			<p></p>
+
+			<img src="./resources/bookmarks.svg" alt="bookmarks" />
+
+			<div class="buttons">
+				<a class="btn btn-primary btn-one btn-lg" href="/resources/links.html">Current Resources</a>
+                <a class="btn btn-danger btn-two btn-lg" href="https://forms.gle/zTJuGgyE4pZ2kdyG8">Submit Resource</a>
+                <a class="btn btn-warning btn-three btn-lg" href="https://forms.gle/zTJuGgyE4pZ2kdyG8">Share this Site</a>
+
+			</div>
+		</div>
+
+	<!-- Modal Goes Here -->
+		<div class="modal" tabindex="-1" role="dialog">
+			<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title">Thanks for Your Interest!</h4>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+                        <p>Thank you for taking the time and effort to support this project. I know many things are going on at work and in the world. I appreciate and thank you for taking the time for this.</p>
+                        <p>The purpose of this project is to provide a curated list of resources for developers to use personally and professionally. There have been so many different resources we have used in class to learn various languages and concepts, and I want to get those all together into one list that is well organized and useable.</p>
+                        <p>What I want from you is to think about some of those great resources you have found, and share a link to it with a few details. Submit the form, and I will slowly update the current list of resources. I also appreciate any feedback on how to organize or categorize the resources better.</p>
+                        <p>I hope to have something done by the end of the program that we can all take to our jobs and have the ultimate resource to make learning new concepts simple or brushing up on languages easy.</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-primary btn-one" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	<!-- End of Modal -->
+
+		<!-- Bootstrap -->
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+		<script>
+            setTimeout(() => {
+                $(document).ready(function () {
+				$(".modal").modal("show");
+			});
+            }, 1500);
+		</script>
+	</body>
+</html>

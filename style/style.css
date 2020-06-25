@@ -1,0 +1,38 @@
+.container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+body {
+    background-color: #F9F9F9;
+}
+
+a {
+    margin: 1rem;
+}
+
+img {
+    height: 35vh;
+    margin: 2rem;
+}
+
+.btn-one {
+    background-color: #3772FF;
+    border: none;
+}
+
+.btn-two {
+    background-color: #DF2935;
+    border: none;
+}
+
+.btn-three {
+    background-color: #FFD166;
+    border: none;
+}
