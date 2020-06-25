@@ -8,4 +8,4 @@ What I want from you is to think about some of those great resources you have fo
 
 I hope to have something done by the end of the program that we can all take to our jobs and have the ultimate resource to make learning new concepts simple or brushing up on languages easy.
 
-## Link to this site: 
+## Link to this site: https://hectarek.github.io/DeveloperResourceProject/
