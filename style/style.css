@@ -30,9 +30,11 @@ img {
 .btn-two {
     background-color: #DF2935;
     border: none;
+    color: white;
 }
 
 .btn-three {
     background-color: #FFD166;
     border: none;
+    color: white;
 }
