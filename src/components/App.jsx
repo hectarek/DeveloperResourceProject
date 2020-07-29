@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import "bootstrap/dist/css/bootstrap.css";
-import "font-awesome/css/font-awesome.css";
+import 'font-awesome/css/font-awesome.min.css';
 import "../style/style.css";
 
 import Nav from "./Nav";
@@ -13,19 +13,17 @@ import About from "./About";
 
 function App() {
 	return (
-    <Router>
-      <div className="App">
+		<Router>
+			<div className="App">
+				<Nav />
 
-      <Nav/>			
-
-        <Switch>
-          <Route path="/" component={Home} />
-          <Route path="/resources" component={Resources}/>
-          <Route path="/about" component={About} />
-        </Switch>
-      </div>
-    </Router>
-		
+				<Switch>
+					<Route path="/home" render={() => <Home/>} />
+					<Route path="/resources" render={() => <Resources/>} />
+					<Route path="/about" render={() => <About/>} />
+				</Switch>
+			</div>
+		</Router>
 	);
 }
 
